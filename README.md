@@ -1,7 +1,7 @@
-# docker-gitolite: Gitolite on docker
+# docker-gitolite
 
-Base: `instast/debian-minbase`
-Pull: `docker pull instast/gitolite`
+Docker Hub: [instast/gitolite](https://registry.hub.docker.com/u/instast/gitolite/)
+Base image: [instast/debian-minbase](https://registry.hub.docker.com/u/instast/debian-minbase/)
 
 ## How to use
 
