@@ -1,16 +1,18 @@
 # start.sh
 #
-# VERSION: 0.1
-#
 # AUTHOR:    Ye Liu
 # CONTACT:   yeliu@instast.com
 # LICENSE:   MIT
 # COPYRIGHT: Copyright (c) 2015 Ye Liu
 
+VERSION='0.1'
+
 SSHD='/usr/sbin/sshd'
 KEYFILE='/tmp/admin_key.pub'
 GITHOME='/home/git'
 REPODIR="$GITHOME/repositories"
+
+echo "$0 v$VERSION"
 
 if [ -z "$SSH_KEY" ]; then
     echo 'error: missing SSH_KEY envrionment variable'
@@ -28,6 +30,7 @@ if [ $? -eq 0 ]; then
     echo 'gitolite is ready, starting sshd...'
     rm $KEYFILE
     cat <<EOF > $0
+echo "$0 v$VERSION"
 chown git:git -R "$REPODIR"
 exec "$SSHD" -D
 EOF
