@@ -5,7 +5,7 @@
 # LICENSE:   MIT
 # COPYRIGHT: Copyright (c) 2015 Ye Liu
 
-VERSION='0.1'
+VERSION='0.2'
 
 SSHD='/usr/sbin/sshd'
 KEYFILE='/tmp/admin_key.pub'
