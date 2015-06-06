@@ -1,3 +1,11 @@
+# docker-gitolite: Gitolite container
+#
+# VERSION: 0.2
+#
+# AUTHOR:  Ye Liu <yeliu@instast.com>
+# LICENSE: MIT
+# COPYRIGHT: Copyright 2015 Ye Liu
+
 FROM instast/debian-minbase
 MAINTAINER Ye Liu <yeliu@instast.com>
 COPY start.sh /opt/start.sh

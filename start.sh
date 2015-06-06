@@ -1,10 +1,3 @@
-# start.sh
-#
-# AUTHOR:    Ye Liu
-# CONTACT:   yeliu@instast.com
-# LICENSE:   MIT
-# COPYRIGHT: Copyright (c) 2015 Ye Liu
-
 VERSION='0.2'
 
 SSHD='/usr/sbin/sshd'
