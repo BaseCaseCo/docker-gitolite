@@ -27,6 +27,8 @@ echo "$0 v$VERSION"
 chown git:git -R "$REPODIR"
 exec "$SSHD" -D
 EOF
+    mkdir -p /var/run/sshd
+    chmod 755 /var/run/sshd
     exec "$SSHD" -D
 else
     echo 'error: initializing gitolite failed'
