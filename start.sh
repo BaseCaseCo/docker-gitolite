@@ -1,4 +1,4 @@
-VERSION='0.2'
+VERSION='0.3'
 
 SSHD='/usr/sbin/sshd'
 KEYFILE='/tmp/admin_key.pub'

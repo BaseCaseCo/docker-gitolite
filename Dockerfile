@@ -1,6 +1,6 @@
 # docker-gitolite: Gitolite container
 #
-# VERSION: 0.2
+# VERSION: 0.3
 #
 # AUTHOR:  Ye Liu
 # LICENSE: MIT
